@@ -7,7 +7,7 @@ function pow(a, b){
 	console.log(res);
 }
 
-var num = prompt('Веддіть число', '');
+var num = prompt('Введіть число', '');
 var power = prompt('Введіть степінь', '');
 
 pow(num, power);
@@ -23,7 +23,7 @@ function access(){
 	var name = prompt("Введіть ім'я користувача", '');
 	for (var i = 0; i < arr.length; i++) {
 		if (arr[i] == name){
-			alert(name + ", ви успіщло ввійшли");
+			alert(name + ", ви успішно ввійшли");
 			return;
 		}					
 	}
